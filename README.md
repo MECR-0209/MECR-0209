@@ -10,17 +10,14 @@
 
 <!-- Presentation -->
 <p>
-  Hi 👋, I'm Maria! I'm from Brazil.
-
-  - 🌱 Currently studying Systems Analysis and Development
-
+  Hi 👋, I'm Maria, I'm a beginner in programming. Currently, I'm attending a college in Brazil for Systems Analysis and Development.
 </p>
 
 <!-- Dropdown -->
 <details>
   <summary>👩‍💻 More about me</summary>
 
-  - 💬 My name is Maria Eduarda and I live in Brazil. I'm currently studying Systems Analysis and Development at Uniasselvi. Consider my English intermediate. I am currently studying the Python language and planning projects.
+  - 💬 My name is Maria Eduarda and I live in Brazil. I'm attending a college in Brazil for Systems Analysis and Developmentat Uniasselvi. Consider my English intermediate. I am currently studying the Python language and planning projects.
 
   - 🎮 I really like playing in my spare time. I love watching movies, not very popular ones, and cute animes.
 </details>
@@ -41,7 +38,7 @@
 ###
 
 <div align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=MECR-0209&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=midnight-purple&locale=en&hide_border=false&order=1" height="200" alt="stats graph"  />
+  <img src="https://github-readme-stats.vercel.app/api?username=MECR-0209&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=rose_pine&locale=en&hide_border=false&order=1" height="200" alt="stats graph"  />
 </div>
 
 ###
