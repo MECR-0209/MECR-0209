@@ -17,7 +17,7 @@
 <details>
   <summary>👩‍💻 More about me</summary>
 
-  - 💬 My name is Maria Eduarda and I live in Brazil. I'm attending a college in Brazil for Systems Analysis and Developmentat Uniasselvi. Consider my English intermediate. I am currently studying the Python language and planning projects.
+  - 💬 My name is Maria Eduarda and I live in Brazil. I'm attending a college in Brazil for Systems Analysis and Development at Uniasselvi. Consider my English intermediate. I am currently studying the Python language and planning projects.
 
   - 🎮 I really like playing in my spare time. I love watching movies, not very popular ones, and cute animes.
  
