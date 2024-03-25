@@ -1,4 +1,8 @@
+
 <h1 align="center">Hello World!</h1>
+
+<img align="left" height="100" src="https://i.pinimg.com/originals/fe/a2/ea/fea2ea3662141172ca762a765b955c83.gif"/>
+<img align="right" height="130" src="https://i.pinimg.com/originals/7f/d3/ea/7fd3eac8b59a87c856febc5135f457f7.gif"/>
 
 ###
 
@@ -10,7 +14,7 @@
 
 <!-- Presentation -->
 <p>
-  Hi 👋, I'm Maria, I'm a beginner in programming. Currently, I'm attending a college in Brazil for Systems Analysis and Development.
+            Hi 👋, I'm Maria, I'm a beginner in programming. Currently, I'm attending a college in Brazil for Systems Analysis and Development.
 </p>
 
 <!-- Dropdown -->
@@ -42,10 +46,12 @@
 
 ###
 
+
+
 <h3 align="left">✨Stats!</h3>
 
 ###
-<img align="right" height="280" src="https://i.pinimg.com/originals/09/63/63/096363e6a6a26da7a6be2862e197e691.gif"  />
+<img align="right" height="280" src="https://i.pinimg.com/originals/09/63/63/096363e6a6a26da7a6be2862e197e691.gif"/>
 
 <div align="left">
   <img src="https://github-readme-stats.vercel.app/api?username=MECR-0209&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=rose_pine&locale=en&hide_border=false&order=1" height="200" alt="stats graph"  />
@@ -59,8 +65,8 @@
 
 ###
 
-<div align="left">
-  <img height="400" src="https://i.pinimg.com/originals/f0/83/f6/f083f63dfcf3bde7060e4e007311f67f.gif"  />
+<div align="Center">
+  <img height="300" src="https://i.pinimg.com/originals/3a/e7/92/3ae792706e97941696b70b4763bd2963.gif"  />
 </div>
 
 ###
