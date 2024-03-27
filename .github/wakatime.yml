@@ -1,5 +1,0 @@
-# Configurações do WakaTime
-wakatime:
-  api_key: ${{ secrets.WAKATIME_API_KEY }}
-
-
