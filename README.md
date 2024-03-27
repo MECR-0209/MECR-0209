@@ -1,3 +1,9 @@
+<div align="center">
+  <img height="200" src="https://cdn.discordapp.com/attachments/1189987791019446392/1222342202009714769/gg_1_2.gif?ex=6615dde2&is=660368e2&hm=a0eb31b6409ce458baa31ac07b446d6640ad302cfdba058da188fdace5dcb955&"  />
+</div>
+
+###
+
 
 <h1 align="center">Hello World!</h1>
 
