@@ -1,0 +1,18 @@
+name: WakaTime Readme
+
+on:
+  schedule:
+    - cron: "0 1 * * *" # Executa diariamente à 1h UTC (ajuste conforme necessário)
+  workflow_dispatch:
+
+env:
+  WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY=<meu token> }}
+  GH_TOKEN: ${{ secrets.GH_TOKEN=<meu token>  }}
+  THEME: "default"
+
+jobs:
+  WakaTime-README:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: MECR-0209/WakaTime-Readme@main
