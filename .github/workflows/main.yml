@@ -5,14 +5,14 @@ on:
     - cron: "0 4 * * *" # Executa diariamente às 1h no horário de Brasília (UTC-3)
   workflow_dispatch:
 
-env:
-  WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY}}
-  GH_TOKEN: ${{ secrets.GH_TOKEN}}
-  THEME: "default"
-
 jobs:
-  WakaTime-README:
+  update-readme:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: MECR-0209/WakaTime-Readme@main
+      - uses: athul/waka-readme@2aab71918a9e3553309bda98e1cc570a07482d3c
+        with:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          COMMIT_MESSAGE: Update Wakapi stats
+          BLOCKS: "⬜🟨🟩"
+          TIME_RANGE: last_30_days
+          SHOW_TIME: true
