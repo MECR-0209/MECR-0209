@@ -90,4 +90,11 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" height="40" alt="jupyter logo"  />
 </div>
 
+<h4 align="left">ㅤㅤㅤ</h4>
 
+
+<div align="center">
+  <img width=1000 src="https://cdn.discordapp.com/attachments/680927276237717521/1222593445424529479/2_1.gif?ex=6616c7e0&is=660452e0&hm=4e7a99418bac983fbc67e695397281e616ad4148923fa4a29c6221ce7d4824ad&"  />
+</div>
+
+###
