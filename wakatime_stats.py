@@ -1,6 +1,10 @@
 import os
 import requests
 
+# Linhas especiais para identificar onde as estatísticas do WakaTime devem ser inseridas no README.md
+START_SECTION = "<!--START_SECTION:waka-->"
+END_SECTION = "<!--END_SECTION:waka-->"
+
 # Função para obter as estatísticas do WakaTime
 def get_wakatime_stats(api_key):
     headers = {
@@ -25,9 +29,22 @@ def format_stats(stats):
 
 # Função para atualizar o README.md com as estatísticas
 def update_readme(stats):
-    with open('README.md', 'a') as readme:
-        readme.write('\n\n## Wakatime Stats\n\n')
-        readme.write(stats)
+    with open('README.md', 'r+') as readme:
+        readme_content = readme.read()
+        # Encontrar a posição onde as estatísticas do WakaTime devem ser inseridas
+        start_index = readme_content.find(START_SECTION) + len(START_SECTION)
+        end_index = readme_content.find(END_SECTION)
+        # Substituir as estatísticas do WakaTime na seção do README.md
+        updated_readme_content = (
+            readme_content[:start_index]
+            + "\n\n## Wakatime Stats\n\n"  # Adiciona um cabeçalho antes das estatísticas
+            + stats
+            + readme_content[end_index:]
+        )
+        # Voltar ao início do arquivo e escrever o conteúdo atualizado
+        readme.seek(0)
+        readme.write(updated_readme_content)
+        readme.truncate()
 
 # Obter a chave da API do WakaTime do Secret do GitHub
 api_key = os.getenv('WAKATIME_API_KEY')
@@ -40,3 +57,4 @@ formatted_stats = format_stats(stats)
 
 # Atualizar o README.md com as estatísticas
 update_readme(formatted_stats)
+
