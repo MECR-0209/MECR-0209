@@ -14,6 +14,7 @@ def get_wakatime_stats(api_key):
     if response.status_code == 200:
         return response.json()
     else:
+        print("Failed to fetch Wakatime stats:", response.status_code)
         return None
 
 # Função para formatar as estatísticas
@@ -46,15 +47,29 @@ def update_readme(stats):
         readme.write(updated_readme_content)
         readme.truncate()
 
+# Adicione instruções de log para indicar o início da execução do script
+print("Starting script execution...")
+
 # Obter a chave da API do WakaTime do Secret do GitHub
 api_key = os.getenv('WAKATIME_API_KEY')
 
 # Obter as estatísticas do WakaTime
 stats = get_wakatime_stats(api_key)
 
-# Formatar as estatísticas
-formatted_stats = format_stats(stats)
+# Verifique se as estatísticas foram obtidas corretamente
+if stats:
+    # Adicione instruções de log para exibir as estatísticas obtidas do Wakatime
+    print("Wakatime stats obtained successfully:")
+    print(stats)
 
-# Atualizar o README.md com as estatísticas
-update_readme(formatted_stats)
+    # Formatar as estatísticas
+    formatted_stats = format_stats(stats)
 
+    # Atualizar o README.md com as estatísticas
+    update_readme(formatted_stats)
+
+    # Adicione uma instrução de log para indicar o final bem-sucedido da execução do script
+    print("Script execution completed successfully!")
+else:
+    # Adicione uma instrução de log para indicar que houve um erro ao obter as estatísticas do Wakatime
+    print("Failed to obtain Wakatime stats. Script execution failed!")
