@@ -47,7 +47,7 @@ def update_readme(stats):
         readme.truncate()
 
 # Obter a chave da API do WakaTime do Secret do GitHub
-api_key = os.getenv ${{ secrets.WAKATIME_API_KEY }}
+api_key = os.getenv('WAKATIME_API_KEY')
 
 # Obter as estatísticas do WakaTime
 stats = get_wakatime_stats(api_key)
