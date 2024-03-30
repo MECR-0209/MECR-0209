@@ -11,7 +11,7 @@ jobs:
     name: Update this repo's README
     runs-on: ubuntu-latest
     steps:
-      - uses: MECR-0209/MECR-0209@master # Troque MECR-0209 pelo seu nome de usuário e nome do repositório
+      - uses: MECR-0209/MECR-0209@main # Troque MECR-0209 pelo seu nome de usuário e nome do repositório
         with:
           WAKATIME_API_KEY: sua_chave_aqui
           GH_TOKEN: seu_token_aqui
