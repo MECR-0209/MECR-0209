@@ -1,9 +1,8 @@
 name: Update Readme with Wakatime Stats
 
 on:
-  workflow_dispatch: # Adiciona essa seção para acionamento manual
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "*/5 * * * *"
 
 jobs:
   update-readme:
