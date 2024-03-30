@@ -1,0 +1,28 @@
+name: Update Readme with Wakatime Stats
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Define o horário para executar o workflow (à meia-noite, todos os dias)
+
+jobs:
+  update-readme:
+    name: Update Readme
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do código
+        uses: actions/checkout@v2
+      
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+      
+      - name: Install dependencies
+        run: pip install requests
+      
+      - name: Execute o script Python
+        run: python wakatime_stats.py
+        env:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+
+
