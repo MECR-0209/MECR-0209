@@ -90,7 +90,7 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" height="40" alt="jupyter logo"  />
 </div>
 
-<h4 align="left">ㅤㅤㅤ</h4>
+
 
 <!--START_SECTION:waka-->
 <!--END_SECTION:waka-->
