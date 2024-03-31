@@ -1,16 +1,16 @@
-name: Waka Readme
-
-on:
-  schedule:
-    # Runs every 2 hours
-    - cron: "0 */2 * * *"
-  workflow_dispatch:
-
-jobs:
-  update-readme:
-    name: Update Readme with Metrics
-    runs-on: ubuntu-latest
-    steps:
-      - uses: MECR-0209/MECR-0209@master
-        with:
-          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+name: WakaTime
+description: Run WakaTime command
+inputs:
+  WAKATIME_API_KEY:
+    description: 'WakaTime API Key'
+    required: true
+runs:
+  using: 'node14'
+  steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+    - name: Run WakaTime command
+      env:
+        WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+      run: |
+        npx wakatime --api-key $WAKATIME_API_KEY --sync
