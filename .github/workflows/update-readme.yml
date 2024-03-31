@@ -1,16 +1,35 @@
-name: Work Stats Readme
+name: Update Profile with WakaTime Stats
 
 on:
-  workflow_dispatch:
   schedule:
-    # Runs every 2 hours
-    - cron: "0 */2 * * *"
+    - cron: '0 */2 * * *' # Executa a cada 2 horas
+  workflow_dispatch:
 
 jobs:
   update-readme:
-    name: Update this repo's README
+    name: Update README with WakaTime Stats
     runs-on: ubuntu-latest
     steps:
-      - uses: MECR-0209/README.md@main
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
         with:
-          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install wakatime
+
+      - name: Update README with WakaTime Stats
+        run: |
+          wakatime --write-stats README.md
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "MECR-0209"
+          git config --global user.email "dudar15r15@gmail.com"
+          git add README.md
+          git commit -m "Update README with WakaTime Stats"
+          git push
+
