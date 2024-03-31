@@ -61,6 +61,17 @@
   <img src="https://github-readme-stats.vercel.app/api?username=MECR-0209&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=discord_old_blurple&locale=en&hide_border=true&order=1" height="200" alt="stats graph"  />
 </div>
 
+<!--START_SECTION:waka-->
+
+```txt
+Python     4 hrs 55 mins   ██████████████████████░░░   87.37 %
+HTML       22 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.67 %
+YAML       18 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.36 %
+Other      1 min           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.42 %
+Markdown   0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.19 %
+```
+
+<!--END_SECTION:waka-->
 
 <h2 align="left">📄Portfólio</h2>
 
@@ -90,19 +101,6 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" height="40" alt="jupyter logo"  />
 </div>
 
-
-
-<!--START_SECTION:waka-->
-
-```txt
-Python     4 hrs 55 mins   ██████████████████████░░░   87.37 %
-HTML       22 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.67 %
-YAML       18 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.36 %
-Other      1 min           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.42 %
-Markdown   0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.19 %
-```
-
-<!--END_SECTION:waka-->
 
 ###
 
