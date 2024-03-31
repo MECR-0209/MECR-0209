@@ -78,7 +78,7 @@ Markdown   0 secs          ░░░░░░░░░░░░░░░░░�
 <h2 align="left">📄Portfólio</h2>
 
   - https://github.com/MECR-0209/GmailScript
-
+  - https://github.com/orgs/community/discussions/115279
 
 <h2 align="left">📌More Info</h2>
 
