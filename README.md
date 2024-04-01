@@ -19,24 +19,28 @@
 
 <!-- Presentation -->
 <p>
-            Hi 👋, I'm Maria, I'm a beginner in programming. Currently, I'm attending a college in Brazil for Systems Analysis and Development.
+  Hi 👋, I'm Maria, a beginner in programming. Currently, I'm attending college in Brazil for Systems Analysis and Development.
 </p>
 
 <!-- Dropdown -->
 <details>
   <summary>👩‍💻 More about me</summary>
 
-  - 💬 My name is Maria Eduarda and I live in Brazil. I'm attending a college in Brazil for Systems Analysis and Development at Uniasselvi. Consider my English intermediate. I am currently studying the Python language and planning projects.
+  - 💬 My name is Maria Eduarda, and I live in Brazil. I'm studying Systems Analysis and Development at Uniasselvi. My English is at an intermediate level. Currently, I'm learning the Python language and planning projects.
 
-  - 🎮 I really like playing in my spare time. I love watching movies, not very popular ones, and cute animes.
- 
-<details> 
-   <summary>📍 Personal Links</summary>
+  - 🎮 I really enjoy playing games in my spare time. I love watching movies, especially lesser-known ones, and cute anime.
+  
+  <details> 
+    <summary>📍 Personal Links</summary>
 
   [![Last.fm](https://img.shields.io/badge/last.fm-D51007?style=for-the-badge&logo=last.fm&logoColor=white)](https://www.last.fm/user/madu1515)
-  [![Last.fm](https://img.shields.io/badge/Steam-000000?style=for-the-badge&logo=steam&logoColor=white)](https://steamcommunity.com/id/DudaMaria/)
-  [![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](Discordapp.com/users/276551741846323200)
+  [![Steam](https://img.shields.io/badge/Steam-000000?style=for-the-badge&logo=steam&logoColor=white)](https://steamcommunity.com/id/DudaMaria/)
+  [![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discordapp.com/users/276551741846323200)
+  
+  </details>
+</details>
 
+  
 <h4 align="left">ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ🖥️ Social Media</h4>
 
 ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/duda1515_)
