@@ -61,7 +61,7 @@
 </div>
 
 
-<h3 align="left">✨Coding time in the last Week</h3>
+<h3 align="left">✨Coding time in this Week</h3>
 <!--START_SECTION:waka-->
 
 ```txt
