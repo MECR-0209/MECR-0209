@@ -87,6 +87,8 @@ CSS    0 secs          ░░░░░░░░░░░░░░░░░░░
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"  />
   <img src="https://cdn.simpleicons.org/css3/1572B6" height="40" alt="css3 logo"  />
   <img src="https://skillicons.dev/icons?i=php" height="40" alt="php logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="40" alt="java logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg" height="40" alt="dot-net logo"  />
 </div>
 
 
