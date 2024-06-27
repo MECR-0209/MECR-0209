@@ -9,7 +9,7 @@
 
 
 
-<h3 align="center">✨Hello, welcome to my profile!</h3>
+<h3 align="center">✨welcome to my profile!✨</h3>
 
 
 <img align="left" height="130" src="https://media.tenor.com/e70_x4ii9KwAAAAi/kirby-inhale.gif"/>
