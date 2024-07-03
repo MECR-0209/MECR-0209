@@ -79,6 +79,9 @@ Git Config   0 secs          ░░░░░░░░░░░░░░░░░
   - https://github.com/MECR-0209/GmailScript
   - https://github.com/orgs/community/discussions/116451
 
+<h2 align="left">📄Projetos em Andamento</h2> 
+   - https://github.com/MECR-0209/Banco-de-Dados-Para-Clientes
+
 <h2 align="left">📌More Info</h2>
 
 <h4 align="left">🔗- Programming languages ​​I'm currently studying</h4>
