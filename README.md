@@ -65,7 +65,10 @@
 <!--START_SECTION:waka-->
 
 ```txt
-No activity tracked
+Java         2 hrs 23 mins   ████████████████████████▓   98.33 %
+Python       2 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.52 %
+JSON         0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.08 %
+Git Config   0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.06 %
 ```
 
 <!--END_SECTION:waka-->
